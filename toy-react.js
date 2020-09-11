@@ -1,6 +1,5 @@
 const RENDER_TO_DOM = Symbol('render to dom')
 
-
 export class Component {
     constructor() {
         this.props = Object.create(null)
